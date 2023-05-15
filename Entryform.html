@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <script src="forminfo.js"></script>
+        <title>
+            Entry Form
+        </title>
+    </head>
+    <body>
+        <form action="/info_up" method="post">
+            <p>
+             Book Name:
+            <input type="text" id="bookName" name="bookName">
+            
+            </p>
+
+    
+            <p>
+            Publisher Name:
+            <input type = "text" id="publisherName" name="publisherName" >
+            
+            </p>
+
+            
+
+            <p>
+                Publisher Age:
+                <input type="number" id="age" name = "age">
+                
+            </p>
+
+
+                <p>
+                    Serial No:
+                    <input type="number" name = "serial" id="serial">
+                    
+                </p>
+
+               
+    
+
+            
+            <p>
+                Enter Date:
+                <input type="date" id="date" name="date">
+            </p>
+                           
+              <div id="bookType" name="bookType">  
+                Book Type:<br>  
+                              <input type="checkbox" id="sci-fi" name="sci-fi" value="sci-fi"/>  
+                                 <label for="sci-fi">Sci-fi</label> <br>  
+                              <input type="checkbox" id="drama" name="drama" value="drama"/>  
+                                 <label for="drama">Drama</label> <br>  
+                              <input type="checkbox" id="novel" name="novel" value="novel"/>  
+                                 <label for="novel">Novel</label>  
+                                 
+              </div> 
+                <input type="submit" id="submitDetails" name="submitDetails" Value="Save"/>
+                <br>
+            </form>
+        
+    </body>
+</html>
